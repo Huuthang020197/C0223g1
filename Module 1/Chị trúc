@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>huyền thoại làng bóng đá thế giới</title>
+</head>
+<body>
+    <a href="home.html" target="_blank">Go to home page</a>
+    <br>
+    <a href="https://www.google.com/" target="_blank">Go to google</a>
+    <p>Please click on here to <a href="resources/document.rar">download</a> document</p>
+    <p>Please click on here to <a download="cv" href="resources/JAVA_FRESHER_Hữu_Thắng.pdf">show</a> Hữu Thắng'CV</p>
+    <h1>Tiểu sử Lionel Messi - huyền thoại làng bóng đá thế giới</h1>
+    <ol type="I">
+        <li>Tổng quan về tiểu sử Lionel Messi
+            <ol type="1">
+                <li>Lionel Messi có tên đầy đủ là Lionel Andrés Messi Cuccittini, anh sinh ngày 24/6/1987 ở Rosario, Argentina.</li>
+                <li>Năm 5 tuổi, Lionel Messi bắt đầu chơi bóng cho Grandoli, một đội bóng địa phương được bố anh dẫn dắt.</li>
+                <li>Năm 11 tuổi, anh được chẩn đoán mắc phải căn bệnh hormone tăng trưởng. CLB River Plate đã thể hiện sự quan tâm đối với Lionel Messi, song lại không đủ tiền để chi trả cho việc chữa bệnh của anh.</li>
+                <li>Sau đó Carles Rexach, giám đốc thể thao của CLB Barcelona, đã quan tâm đến tài năng của anh. Barcelona đã ký một bản hợp đồng với Lionel Messi sau khi chứng kiến màn thể hiện tốt trên sân đấu, đồng ý trả tiền để chữa bệnh và đảm bảo công ăn việc làm cho gia đình nếu anh chuyển sang Tây Ban Nha. Ngày 14/12/2000, gia đình Lionel Messi đã chuyển tới châu Âu và anh bắt đầu chơi cho CLB ở đội trẻ.</li>
+                <li>Hiện tại, Lionel Messi đang chơi vị trí tiền đạo cho đội tuyển bóng đá quốc gia Argentina và thi đấu cho CLB Paris Saint-Germain tại giải đấu Ligue 1.
+
+                </li>
+            </ol>
+        </li>
+        <li>Sự nghiệp tại câu lạc bộ của Lionel Messi
+            <ol type="2">
+                <li>Barcelona
+                    <ul type="circle">
+                        <li> 2003-2005: Lên đội một Barcelona</li>
+                        <li>2009-2010: Nhận quả bóng vàng đầu tiên</li>
+                        <li>2010-2011: Có được chức vô địch La Liga thứ 5 và Champions League thứ 3</li>
+                        <li>2018-2019: Danh hiệu La Liga thứ 10 cùng kỷ lục Chiếc giày vàng thứ 6</li>
+                        <li>2020-2021: Mùa giải cuối cùng tại CLB Barcelona</li>
+                    </ul>
+                </li>
+                <li>Paris Saint-Germain
+                    <ul type="circle">
+                        <li>2020-2021: Mùa giải cuối cùng tại CLB Barcelona</li>
+                    </ul>
+                </li>
+            </ol>
+        </li>
+        <li>Sự nghiệp ở đấu trường quốc tế của Lionel Messi
+            <ol type="3">
+                <li>2005-2006: Ra mắt đội tuyển và World Cup</li>
+                <li>2007-2008: Chung kết Copa America và huy chương vàng Olympic</li>
+                <li>2018: Tham dự World Cup</li>
+                <li> 2021: Vô địch Copa America và cầu thủ ghi nhiều bàn thắng nhất Nam Mỹ</li>
+                <li>2022: Vô địch Finalissima và vô địch World Cup tại Qatar</li>
+            </ol>
+        </li>
+        <li>Phong cách siêu sao Lionel Messi thi đấu
+            <ol type="4">
+                <li>Lionel Messi sở hữu vóc dáng nhỏ nhắn nhưng đó lại là một lợi thế trong việc rê bóng. Anh dễ dàng xoay chuyển, cản bóng hoặc đi bóng qua nhiều cầu thủ của đội bạn trong sự ngỡ ngàng. Những cú nã đại bác từ xa của Lionel Messi luôn khiến thủ môn đội bạn phải khiếp sợ.</li>
+                <li>Về mặt chiến thuật, Lionel Messi chơi ở vị trí tiền đạo tấn công và giữ vai trò đội trưởng. Sở hữu kỹ năng rê bóng tốc độ cùng cú sút độ chính xác cao. Nhìn chung, siêu sao 34 tuổi người Argentina được đánh giá là một cầu thủ xuất sắc với lối chơi đa dạng và toàn diện.</li>
+            </ol>
+        </li>
+        <li>Những kỷ lục thế giới của Lionel Messi
+            <ol type="5">
+                <li>Cầu thủ giành được nhiều giải Quả bóng vàng nhất thế giới: 7 quả</li>
+                <li>Cầu thủ ghi được nhiều bàn thắng quốc tế nhất trong 1 năm (2012): với 25 bàn</li>
+                <li>Cầu thủ ghi liên tiếp nhiều bàn nhất tại 1 giải đấu: 21 trận (33 bàn)</li>
+                <li>Cầu thủ ghi bàn nhiều nhất tại giải FIFA club World Cup: 5 bàn</li>
+                <li>Cầu thủ kiến tạo nhiều nhất lịch sử ở Copa America: 11 assists</li>
+            </ol>
+        </li>
+        <li>Những kỷ lục châu Âu của Lionel Messi
+            <ol type="6">
+                <li>Giành được nhiều danh hiệu Cầu thủ xuất nhất nhất châu Âu: 3</li>
+                <li>Cầu thủ ghi được nhiều bàn thắng nhất trong 1 mùa giải (câu lạc bộ): 73 bàn thắng</li>
+                <li>Cầu thủ ghi được nhiều bàn thắng nhất trong 1 năm (câu lạc bộ): 79 bàn thắng</li>
+                <li>Giành được nhiều giải vua phá lưới nhất UEFA Champions League: 4</li>
+                <li>Cầu thủ ghi nhiều bàn thắng nhất trong 1 trận đấu ở UEFA Champions League: 5 bàn thắng</li>
+                <li>Cầu thủ ghi bàn nhiều nhất tại Siêu Cúp châu Âu: 3 bàn</li>
+            </ol>
+        </li>
+        <li>Đời tư của Lionel Messi
+            <ol type="7">
+                <li>Không chỉ có sự nghiệp lẫy lừng, cuộc sống hôn nhân của siêu sao Lionel Messi cũng khiến cho nhiều người phải ngưỡng mộ. Anh hiện đang sống hạnh phúc bên cô vợ "thanh mai trúc mã" Antonella Roccuzzo cùng với 3 người con trai là Mateo Messi Roccuzzo, Thiago Messi và Ciro Messi Roccuzzo.</li>
+            </ol>
+        </li>
+    </ol>
+    <img src="https://cdn.baoquocte.vn/stores/news_dataimages/2022/102022/25/22/tieu-su-lionel-messi-huyen-thoai-lang-bong-da-the-gioi-20221025221757.jpg?rt=20221025221759" alt="Lionel Messi">
+</body>
+</html>
