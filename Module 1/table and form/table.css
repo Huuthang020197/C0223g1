@@ -1,2 +1,6 @@
-table{With: 300px;}
-th{}
+thead{background-color:darkgrey;}
+
+
+tr:nth-child(even) {
+    background-color: darkgrey;
+}
