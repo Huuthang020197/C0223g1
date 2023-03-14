@@ -1,0 +1,32 @@
+
+.container{
+    background-color: aqua;
+   width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 35% 60%;
+    column-gap: 5%;
+    row-gap: 5px;
+}
+.avatar img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.avatar {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.name {
+    padding-left: 30px;
+    border-left: 1px solid #000;
+}
+
+.name h1 {
+    font-weight: 150;
+    font-size: xxx-large;
+    margin: 0px 0 5px;}
