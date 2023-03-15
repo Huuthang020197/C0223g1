@@ -28,3 +28,11 @@ body{
 .conten { 
     border-left: 1px solid ;
 }
+.conten .company ul li{
+    list-style: none;
+   
+    background-color: black;
+    width: 20px;
+    height: 20px;
+    margin-right: 30px;
+}
