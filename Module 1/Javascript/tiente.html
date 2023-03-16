@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>doitiente</title>
+</head>
+
+<body>
+    <form action="">
+        <table>
+            <tr>
+                <th>Amount</th>
+                <th>From Currency</th>
+                <th>To Currency </th>
+            </tr>
+            <tr>
+                <td>
+                    <input id="amount" type="text">
+                </td>
+                <td>
+                    <select name="" id="Form">
+                        <option value="vnd">vnd</option>
+                        <option value="usd">usd</option>
+                    </select>
+                </td>
+                <td>
+                    <select name="" id="To">
+                        <option value="vnd">vnd</option>
+                        <option value="usd">usd</option>
+                    </select>
+                </td>
+                <td>
+                    <button type="button" value="" onclick="convert()">convert</button>
+                </td>
+            </tr>
+        </table>
+        <div id="Result">tien</div>
+    </form>
+    
+</body>
+<script>
+    function convert() {
+        var amount = parseFloat(document.getElementById("amount").value);
+        var Form = document.getElementById("Form").value;
+        var To = document.getElementById("To").value;
+        var ketqua
+        if (Form == "usd" && To == "usd" || Form == "vnd" && To == "vnd") {
+            alert(undefined)
+        }
+        else if (Form == "usd" && To == "vnd") {
+             ketqua = amount * 23000 }
+        else if (Form == "vnd" && To == "usd") { 
+            ketqua = amount / 23000 }
+        else {
+            ketqua = amount
+        }
+        document.getElementById("Result"). innerHTML = ketqua
+    }
+</script>
+
+</html>
