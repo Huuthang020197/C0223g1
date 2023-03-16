@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>maytinh</title>
+</head>
+
+<body>
+    <form>
+        <table>
+            <tbody>
+                <tr>
+                    <label for="number 1" Nhập số thứ nhất:></label>
+                    <input type="number" id="number 1" placeholder="Nhập số thứ nhất">
+                    <label for="number 2" Nhập số thứ hai:></label>
+                    <input type="number" id="number 2" placeholder="Nhập số thứ hai">
+                    <button type="button" onclick="add()">Cộng</button>
+                    <button type="button" onclick="subtract()">Trừ</button>
+                    <button type="button" onclick="multiply()">Nhân</button>
+                    <button type="button" onclick="divide()">Chia</button>
+                </tr>
+                </tr>
+            </tbody>
+        </table>
+        <p id="result">result</p>
+    </form>
+</body>
+<script>
+    function add() {
+        var num1 = parseFloat(document.getElementById("number1").value);
+        var num2 = parseFloat(document.getElementById("number2").value);
+        var result = num1 + num2;
+        document.getElementById("result").innerHTML = Ketqua
+    }
+    function subtract() {
+        var num1 = parseFloat(document.getElementById("number1").value);
+        var num2 = parseFloat(document.getElementById("number2").value);
+        var result = num1 - num2;
+        document.getElementById("result").innerHTML = Ketqua
+    }
+    function multiply() {
+        var num1 = parseFloat(document.getElementById("number1").value);
+        var num2 = parseFloat(document.getElementById("number2").value);
+        var result = num1 * num2;
+        document.getElementById("result").innerHTML = Ketqua
+    }
+
+    function divide() {
+        var num1 = parseFloat(document.getElementById("number1").value);
+        var num2 = parseFloat(document.getElementById("number2").value);
+        var result = num1 / num2;
+        document.getElementById("result").innerHTML = ketqua
+    }
+
+</script>
+
+</html>
