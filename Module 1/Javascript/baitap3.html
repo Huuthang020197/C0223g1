@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dang nhap</title>
+</head>
+<body>
+    <script>
+        let username = prompt("mày là ai?");
+        if (username == "Admin"){
+            let pass = prompt('mật khẩu');
+            if (pass == 'Themaster'){
+                alert("chào mừng")
+            }
+            else if (pass == null) {
+                alert('đã hủy')
+            }  
+            else{
+                alert('sai mật khẩu');
+            }
+        }
+        else if(username == null){
+            alert('đã hủy');
+        }
+        else{
+            alert('tôi không biêt');
+        }
+    </script>
+    
+</body>
+</html>
