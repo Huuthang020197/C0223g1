@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>nhap a</div>
+    <input type="number" id="nhap a">
+    <div>nhap b</div>
+    <input type="number" id="nhap b">
+    <button onclick="kiemtra()">kiemtra</button>
+    <input type="number" id="ketqua">
+    
+</body>
+<script>
+    function kiemtra(){
+        let a=document.getElementById('nhap a').value;
+        let b=document.getElementById('nhap b').value;
+        let x= -b/a;
+        document.getElementById('ketqua').value=x
+
+    }
+</script>
+</html>
