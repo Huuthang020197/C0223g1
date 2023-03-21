@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>nhap a</div>
+    <input type="number" id="nhapa">
+    <div>nhap b</div>
+    <input type="number" id="nhapb">
+    <div>nhap c</div>
+    <input type="number" id="nhapc">
+    <button onclick="kiemtra()">kiemtra</button>
+    <div>ketqua</div>
+    <input type="number" id="ketqua" readonly>
+    
+</body>
+<script>
+    function kiemtra(){
+        let a=+document.getElementById('nhapa').value;
+        let b=+document.getElementById('nhapb').value;
+        let c=+document.getElementById('nhapc').value;
+        let delta= b*b-4*a*c
+        if (delta<0) {
+            document.getElementById('ketqua').value=("phương trình vô nghiệm")
+        }
+        else if (delta=0) {
+            x=-b/2*a
+            document.getElementById('ketqua').value=x+("phương trình có nghiệm kép x = -b/2*a.")
+        }
+        else{
+            x1=(-b + Math.sqrt(delta)) / (2*a)
+            x2= (-b -Math.sqrt(delta)) / (2*a)
+            document.getElementById('ketqua').value=("phương trình có hai nghiệm phân biệt:")
+        }
+        }
+
+
+</script>
+</html>
