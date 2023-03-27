@@ -4,22 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>giá trị chính phương</title>
 </head>
 <body>
     <script>
-        function sumOfSquares(arr) {
+        function sumOfSquares(numbers) {
         let sum = 0;
         for (let i = 0; i < arr.length; i++) {
-             const sqrt = Math.sqrt(arr[i]);
+             const sqrt = Math.sqrt(numbers[i]);
              if (sqrt === Math.floor(sqrt)) {
-                  sum += arr[i];
+                  sum += numbers[i];
              }
          }
          return sum;
     }
-    const arr=[2,4,5,7];
-    console.log(sumOfSquares(arr));
+    const numbers=[2,4,5,7];
+    console.log(sumOfSquares(numbers));
     </script>
     
 </body>

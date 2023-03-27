@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let a=[2,4,7,9]
+        function countpositive(numbers){
+            let count=0
+            for(let i=0;i<numbers.length;i++){
+                if(numbers[i]>0 && numbers[i]%7==0){
+                    count ++ 
+                }
+            }
+            return(count)
+            
+        }
+        console.log(countpositive(a));
+    </script>
+    
+</body>
+</html>
